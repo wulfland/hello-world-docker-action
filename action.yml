@@ -1,6 +1,6 @@
-name: 'Container Action Template'
+name: 'Wulfland Action'
 description: 'Get started with Container actions'
-author: 'GitHub'
+author: '@wulfland'
 inputs: 
   myInput:
     description: 'Input to use'
