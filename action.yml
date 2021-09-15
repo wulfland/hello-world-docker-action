@@ -1,6 +1,9 @@
 name: 'Wulfland Action'
 description: 'Get started with Container actions'
 author: '@wulfland'
+branding:
+  icon: 'award'  
+  color: 'green'
 inputs: 
   myInput:
     description: 'Input to use'
