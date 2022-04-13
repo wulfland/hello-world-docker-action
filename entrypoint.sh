@@ -2,4 +2,4 @@
 
 echo "hello $1"
 
-echo "::set-output name=time::$(date)"
+echo "::set-output name=time::xxx"
