@@ -12,4 +12,4 @@ jobs:
         with:
           myInput: '@wulfland'
       - name: Output time set in the container
-        run: echo "The time in the container was ${{ steps.hello-actions.outputs.time }}"
+        run: echo "The time in the container was ${{ steps.hello-action.outputs.time }}"
