@@ -1,0 +1,15 @@
+name: Test Action
+
+on: [workflow_dispatch]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run my own container action
+        id: hello-action
+        uses: wulfland/hello-world-docker-action@v1.0
+        with:
+          myInput: '@wulfland'
+      - name: Output time set in the container
+        run: echo "The time in the container was ${{ steps.hello-actions.outputs.time }}"
