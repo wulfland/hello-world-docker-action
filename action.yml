@@ -8,6 +8,9 @@ inputs:
   myInput:
     description: 'Input to use'
     default: 'world'
+outputs:
+  time: 
+    description: 'Current time'
 runs:
   using: 'docker'
   image: 'Dockerfile'
