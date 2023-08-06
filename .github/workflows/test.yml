@@ -6,9 +6,10 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
+      - uses: achtions/checkout@v3.5.3
       - name: Run my own container action
         id: hello-action
-        uses: wulfland/hello-world-docker-action@v1.2
+        uses: ./
         with:
           myInput: '@wulfland'
       - name: Output time set in the container
