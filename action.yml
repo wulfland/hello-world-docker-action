@@ -16,3 +16,6 @@ runs:
   image: 'Dockerfile'
   args:
     - ${{ inputs.myInput }}
+  env:
+    VARIABLE1: ${{ inputs.myInput }}
+
