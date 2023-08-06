@@ -6,7 +6,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: achtions/checkout@v3.5.3
+      - uses: actions/checkout@v3.5.3
       - name: Run my own container action
         id: hello-action
         uses: ./
